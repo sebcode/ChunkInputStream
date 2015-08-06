@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96CF532C1B73DA730092A881 /* ChunkInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CF532B1B73DA730092A881 /* ChunkInputStream.m */; };
+		96F1DE6B1B73D329003CF9BF /* ChunkInputStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F1DE6A1B73D329003CF9BF /* ChunkInputStreamTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96CF532A1B73DA730092A881 /* ChunkInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChunkInputStream.h; path = ../ChunkInputStream.h; sourceTree = "<group>"; };
+		96CF532B1B73DA730092A881 /* ChunkInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChunkInputStream.m; path = ../ChunkInputStream.m; sourceTree = "<group>"; };
+		96F1DE661B73D329003CF9BF /* ChunkInputStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChunkInputStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F1DE6A1B73D329003CF9BF /* ChunkInputStreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkInputStreamTests.swift; sourceTree = "<group>"; };
+		96F1DE6C1B73D329003CF9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F1DE761B73D39D003CF9BF /* ChunkInputStreamTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChunkInputStreamTests-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96F1DE631B73D329003CF9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96F1DE4C1B73D329003CF9BF = {
+			isa = PBXGroup;
+			children = (
+				96F1DE751B73D37E003CF9BF /* ChunkInputStream */,
+				96F1DE691B73D329003CF9BF /* ChunkInputStreamTests */,
+				96F1DE561B73D329003CF9BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96F1DE561B73D329003CF9BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96F1DE661B73D329003CF9BF /* ChunkInputStreamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F1DE691B73D329003CF9BF /* ChunkInputStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				96F1DE6A1B73D329003CF9BF /* ChunkInputStreamTests.swift */,
+				96F1DE6C1B73D329003CF9BF /* Info.plist */,
+			);
+			path = ChunkInputStreamTests;
+			sourceTree = "<group>";
+		};
+		96F1DE751B73D37E003CF9BF /* ChunkInputStream */ = {
+			isa = PBXGroup;
+			children = (
+				96CF532A1B73DA730092A881 /* ChunkInputStream.h */,
+				96CF532B1B73DA730092A881 /* ChunkInputStream.m */,
+				96F1DE761B73D39D003CF9BF /* ChunkInputStreamTests-Bridging-Header.h */,
+			);
+			name = ChunkInputStream;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96F1DE651B73D329003CF9BF /* ChunkInputStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F1DE721B73D329003CF9BF /* Build configuration list for PBXNativeTarget "ChunkInputStreamTests" */;
+			buildPhases = (
+				96F1DE621B73D329003CF9BF /* Sources */,
+				96F1DE631B73D329003CF9BF /* Frameworks */,
+				96F1DE641B73D329003CF9BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChunkInputStreamTests;
+			productName = ChunkInputStreamTests;
+			productReference = 96F1DE661B73D329003CF9BF /* ChunkInputStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96F1DE4D1B73D329003CF9BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sebastian Volland";
+				TargetAttributes = {
+					96F1DE651B73D329003CF9BF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 96F1DE501B73D329003CF9BF /* Build configuration list for PBXProject "ChunkInputStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96F1DE4C1B73D329003CF9BF;
+			productRefGroup = 96F1DE561B73D329003CF9BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96F1DE651B73D329003CF9BF /* ChunkInputStreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96F1DE641B73D329003CF9BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96F1DE621B73D329003CF9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CF532C1B73DA730092A881 /* ChunkInputStream.m in Sources */,
+				96F1DE6B1B73D329003CF9BF /* ChunkInputStreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96F1DE6D1B73D329003CF9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96F1DE6E1B73D329003CF9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96F1DE731B73D329003CF9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChunkInputStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = seb.ChunkInputStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChunkInputStreamTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96F1DE741B73D329003CF9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChunkInputStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = seb.ChunkInputStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChunkInputStreamTests-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96F1DE501B73D329003CF9BF /* Build configuration list for PBXProject "ChunkInputStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F1DE6D1B73D329003CF9BF /* Debug */,
+				96F1DE6E1B73D329003CF9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F1DE721B73D329003CF9BF /* Build configuration list for PBXNativeTarget "ChunkInputStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F1DE731B73D329003CF9BF /* Debug */,
+				96F1DE741B73D329003CF9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96F1DE4D1B73D329003CF9BF /* Project object */;
+}
